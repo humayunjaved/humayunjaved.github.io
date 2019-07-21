@@ -4,14 +4,5 @@
     "title": "Arnet Raff",
     "service": "github"
   },
-  {
-    "link": "https://www.linkedin.com/in/yourprofile",
-    "title": "title2",
-    "service": "linkedin"
-  },
-  {
-    "link": "https://www.facebook.com/yourprofile",
-    "title": "title3",
-    "service": "facebook"
-  }
+  
 ]
