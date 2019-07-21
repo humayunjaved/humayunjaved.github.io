@@ -13,9 +13,9 @@ var Project = /** @class */ (function () {
         return project;
     };
     Project.prototype.generateImg = function () {
-        var img = document.createElement("div");
+        var img = document.createElement("img");
         img.classList.add("img-container");
-        img.style.backgroundImage = "url(\"" + this.desc.imgUrl + "\")";
+        img.src = this.desc.imgUrl;
         return img;
     };
     Project.prototype.generateDesc = function () {

@@ -25,12 +25,11 @@
 }
 
 .img-container {
-    background-size: cover;
-    background-repeat: no-repeat;
-    filter: grayscale(100%);
     transition: all .5s ease;
     border-radius: 4px;
     border: 1px solid var(--main-font-color);
+    width:150px;
+    padding: 0px 10px;
 }
 
 .single-project:hover {
@@ -38,8 +37,7 @@
 }
 
 .single-project:hover .img-container {
-    filter: grayscale(0);
-}
+  }
 
 .text {
     padding-left: calc(2 * var(--default-padding));
